@@ -1,0 +1,21 @@
+.all-products-contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/11/17/02/heart-1899822__480.jpg");
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu .menuTitle {
+    font-family: cursive;
+    font-size: 40px;
+  }
+  

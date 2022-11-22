@@ -1,0 +1,43 @@
+.about {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/11/17/02/heart-1899822__480.jpg");
+  }
+  
+  .aboutTop {
+    width: 50%;
+    height: 50%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .aboutBottom p {
+    width: 1200px;
+  }
+  
+  .about .aboutBottom h1 {
+    font-weight: 200;
+    font-size: 30px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+  .table{
+    align-items: center;
+    margin: auto;
+  }
+  
